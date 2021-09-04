@@ -1,0 +1,59 @@
+h1 {
+  color: blue;
+}
+
+#redbackground {
+  background-color: red;
+}
+
+.turnityellow {
+  color: yellow;
+  background-color: #00FF00
+}
+
+.turnitred {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: #ffff00;
+}
+
+footer {
+  color: white;
+  background-color: red;
+}
+
+#divexample {
+  color: blue;
+  background-color: purple;
+}
+
+.spanstyle {
+  color: green;
+}
