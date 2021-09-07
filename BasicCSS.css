@@ -1,59 +1,52 @@
 h1 {
-  color: blue;
+  color: purple;
 }
 
-#redbackground {
-  background-color: red;
-}
-
-.turnityellow {
-  color: yellow;
-  background-color: #00FF00
-}
-
-.turnitred {
+.purplefusion {
   color: red;
 }
 
 h2 {
-  color: green;
+  color: pink;
 }
+ .squeezepink {
+   color: green;
+ }
 
-h3 {
-  color: green;
+p {
+  color: #000080;
+  background-color: #ff00ff;
 }
 
 a {
-  color: black;
-  text-decoration: none;
+  color: #DC143C
 }
 
 a:link {
-  color: pink;
+ color: red;
 }
 
 a:visited {
-  color: blue;
+ color: green;
 }
 
 a:active {
-  color: #00ffff;
+ color: #00ffff;
 }
 
 a:hover {
-  color: #ffff00;
+ color: yellow;
 }
 
-footer {
-  color: white;
-  background-color: red;
+.lemonpie {
+  color: #008B8B;
+}
+
+.spanstyle {
+  color: yellow;
 }
 
 #divexample {
   color: blue;
-  background-color: purple;
-}
-
-.spanstyle {
-  color: green;
+  background-color: cyan;
 }
