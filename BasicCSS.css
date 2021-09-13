@@ -1,17 +1,12 @@
 h1 {
-  color: purple;
-}
-
-.purplefusion {
-  color: red;
+  color: Orange;
+  font-style: italic;
+  font-weight: normal;
 }
 
 h2 {
   color: pink;
 }
- .squeezepink {
-   color: green;
- }
 
 p {
   color: #000080;
@@ -38,10 +33,6 @@ a:hover {
  color: yellow;
 }
 
-.lemonpie {
-  color: #008B8B;
-}
-
 .spanstyle {
   color: yellow;
 }
@@ -49,4 +40,34 @@ a:hover {
 #divexample {
   color: blue;
   background-color: cyan;
+}
+
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textright {
+text-align: right;
+}
+
+.textleft {
+text-align: left;
+
+.textcenter {
+text-align: center;
+}
+
+ .imgbox {
+border: 2px solid black;
+padding: 10px;
+margin: 20px 20px 0px 0px;
+background-color: white;
+width: 300px;
+ }
+
+ body {
+background-color: black;
+background-image: url("CTK301/gaming.jpg");
+background-repeat: repeat;
+background-position: top left;
 }
