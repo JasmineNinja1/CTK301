@@ -1,73 +1,91 @@
-h1 {
-  color: Orange;
-  font-style: italic;
-  font-weight: normal;
-}
-
-h2 {
-  color: pink;
-}
-
-p {
-  color: #000080;
-  background-color: #ff00ff;
+body {
+background-color: white;
+background-image: url(Soul.png);
+background-repeat: no-repeat;
+background-position: top left;
+width: 600px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  color: #DC143C
+  color: #008DFB;
+ text-decoration: none;
 }
 
 a:link {
- color: red;
-}
-
-a:visited {
- color: green;
-}
-
-a:active {
- color: #00ffff;
+ color: #008DFB;
 }
 
 a:hover {
- color: yellow;
+ color: orange;
+ text-decoration: underline;
 }
 
-.spanstyle {
-  color: yellow;
+.bluey {
+  color: #008DFB;
+  margin-top: 475px;
+  text-align: center;
 }
 
-#divexample {
-  color: blue;
-  background-color: cyan;
+.small{
+  font-size: 10px;
+}
+
+h1 {
+  color: #008DFB;
+  font-size: 100px;
+  width: 300px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 150px;
+  font-family: Impact;
 }
 
 .customtext {
-  font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+font-style: none;
+font-weight: bold;
+font-size: 20px;
+}
+
+.white {
+  color: white;
+  text-align: right;
+  margin-left: 400px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.textcenter {
+text-align: center;
 }
 
 .textright {
 text-align: right;
 }
 
-.textleft {
-text-align: left;
-
-.textcenter {
-text-align: center;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
- .imgbox {
-border: 2px solid black;
-padding: 10px;
-margin: 20px 20px 0px 0px;
-background-color: white;
-width: 300px;
- }
+.spanstyle {
+  color: orange;
+}
 
- body {
-background-color: black;
-background-image: url("CTK301/gaming.jpg");
-background-repeat: repeat;
-background-position: top left;
+img {
+margin-left: 250px;
 }
