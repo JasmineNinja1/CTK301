@@ -4,8 +4,8 @@ body { background-color: #999999; }
   margin: 1em auto;
   padding: 0;
   width: 960px;
-  border: 3px solid black;
-  background-color: #ffffff;
+  border: 5px solid blue;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -13,93 +13,106 @@ body { background-color: #999999; }
 header {
   grid-column: span 4;
   padding: 0 16px;
-  margin: 10px;
-  background-color: black;
-  color: white;
+  margin: 0;
+  background-color: #045de9;
+  background-image: linear-gradient(to bottom, #93b9f0, #7babef, #619cee, #448eed, #127feb);
+  color: #7AC3FC;
   font-family: Helvetica;
   font-weight: normal;
+  font-style: italic;
+  border-bottom: 50px solid #127FEB;
 }
 
-h1
-{
-  font-weight: normal;
+h1 a:link {
+text-decoration: none;
+color: #7AC3FC;
+}
+
+h1 {
+font-weight: normal;
 }
 
 nav {
-  grid-column: span 1;
-  padding: 16px;
+  grid-column: span 4;
+  padding: 0px;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: -70px;
   padding: 0;
 }
 
 nav li {
-  width: 200px;
-  padding: 10px;
+  width: 225px;
+  display: inline-block;
 }
 
 nav li a {
   display: block;
-  background-color: red;
-  border: 1px solid black;
+  background-image: linear-gradient(to bottom, #93b9f0, #7babef, #619cee, #448eed, #127feb);
   padding: 1em;
-  color: white;
+  color: #7AC3FC;
   text-decoration: none;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
-nav a:hover {
-  background-color: #8B0000;
-  color: white;
+nav li a:hover {
+  color: pink;
+}
+
+aside{
+    grid-column: span 5;
+    margin-left: 10px;
 }
 
 h2 {
-  grid-column: span 3;
+  grid-column: span 5;
+  margin-left: 10px;
+  color: blue;
+  border-bottom: 5px solid blue;
   font-family: Helvetica;
-  border-bottom: 3px solid black;
+}
+
+.fish {
+  font-weight: bold;
 }
 
 main {
-  grid-column: span 3;
-  padding: 5px;
-  margin: 7px;
-  font-family: Georgia;
-  float: right;
-  text-align: justify;
+    grid-column: span 5;
+    padding: 16px;
+    margin: -25px 5px;
+    font-family: Georgia;
+    text-align: justify;
+    float: right;
 }
 
 main img {
   float: left;
-  border: 5px solid black;
-  padding: 10px;
+  Border: 3px solid blue;
   margin: 10px;
+}
+
+.banana {
+  float: right;
+}
+
+.cold {
+  padding: 15px;
 }
 
 footer {
   grid-column: span 4;
   background-color: red;
-  color: white;
-  padding: 16px;
-  font-style: italic;
-  text-align: center;
+  border-top: 5px solid blue;
 }
 
-body {
-  background-image: url(a62.png);
+footer img {
+  padding: 5px;
+  margin: 0px 16px;
 }
 
-.bold {
-  font-weight: bold;
-
-}
-
-a {
+.spanstyle {
   color: red;
-  text-decoration: none;
-}
-
-a:hover {
-  color: blue;
 }
