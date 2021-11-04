@@ -1,0 +1,106 @@
+body {
+  background-color: #999999;
+  background-image: linear-gradient(to right top, #d16ba5, #af6da6, #906c9f, #756a90, #62647d, #5d617f, #585e80, #535b82, #5d5998, #7452a9, #9442b2, #b81eb1);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-image: linear-gradient(to right top, #e7afde, #bc93b7, #947892, #6e5d6d, #4a444a);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+.textshadowbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #C5A7C2;
+  text-shadow: 5px 5px 5px purple; /* x, y, blur, color */
+}
+
+header {
+  grid-column: 1/1 span 12;
+  background-image: linear-gradient(to right top, #98067f, #9a3d8a, #9c5b94, #9e759b, #a08da0);
+  color: #C5A7C2;
+  font-family: Script MT;
+  padding: 0 12px;
+  text-align: center;
+}
+
+.roundedbox {
+  padding: .5px;
+  border: .5px solid purple;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.dropshadowbox {
+  padding: .5px;
+  margin: .5px;
+  border: .5px solid purple;
+  background-color: #ccc;
+  box-shadow: 5px 5px 5px purple; /* x, y, blur, color */
+}
+
+nav {
+  grid-column: span 12;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: #C5A7C2;
+  background-color: #675050;
+  text-decoration: none;
+  font-family: Script MT;
+  text-indent: 5px;
+  margin: auto;
+  font-size: 20px;
+  transition: color 1.0s;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+main {
+grid-column: span 12px;
+font-family: Rockwell;
+color: #8B008B;
+}
+
+p {
+font-size: 25px;
+}
+
+main img {
+  height: 400px;
+  width: 400px;
+  float: left;
+}
+
+footer {
+  grid-column: 12/1 span 12px;
+  background-image: linear-gradient(to right top, #98067f, #9a3d8a, #9c5b94, #9e759b, #a08da0);
+  color: #C5A7C2;
+  font-family: Script MT;
+  padding: 12px;
+  text-align: center;
+}
