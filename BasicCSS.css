@@ -8,7 +8,7 @@ body {
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  border: 1px solid black;
+  border: 5px solid black;
   padding: 24px;
   background-image: linear-gradient(to right top, #e7afde, #bc93b7, #947892, #6e5d6d, #4a444a);
   display: grid;
@@ -16,28 +16,58 @@ body {
   grid-column-gap: 24px;
 }
 
+.textshadowbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #C5A7C2;
+  text-shadow: 5px 5px 5px purple; /* x, y, blur, color */
+}
+
 header {
-  grid-column: 1/1 span 12;
+  grid-column: span 12;
   background-image: linear-gradient(to right top, #98067f, #9a3d8a, #9c5b94, #9e759b, #a08da0);
   color: #C5A7C2;
-  font-family: Script MT;
+  font-family: 'Playfair Display', serif;
   padding: 0 12px;
   text-align: center;
 }
 
+.roundedbox {
+  padding: 1px;
+  border: 1px solid purple;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.dropshadowbox {
+  padding: 1px;
+  border: 1px solid purple;
+  background-color: #ccc;
+  box-shadow: 5px 5px 5px purple; /* x, y, blur, color */
+}
+
 nav {
   grid-column: span 12;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-align: center;
   padding: 0;
 }
 
 nav ul {
-  list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 nav li {
-  width: 275px;
+  width: 225px;
+  padding: 0 16px;
+  margin-right: 30px;
+  margin-left: 30px;
   display: inline-block;
 }
 
@@ -50,14 +80,19 @@ nav li a {
   text-indent: 5px;
   margin: auto;
   font-size: 24px;
+  transition: color 1.0s;
 }
 
 nav a:hover {
   color: purple;
 }
 
+h2 {
+  font-family: Script MT;
+}
+
 main {
-grid-column: span 12px;
+grid-column: span 12;
 font-family: Rockwell;
 color: #8B008B;
 }
@@ -67,16 +102,24 @@ font-size: 25px;
 }
 
 main img {
-  height: 300px;
+  height: 200px;
   width: 1200px;
   position: relative;
 }
 
 footer {
-  grid-column: 12/1 span 12px;
+  grid-column: span 12;
   background-image: linear-gradient(to right top, #98067f, #9a3d8a, #9c5b94, #9e759b, #a08da0);
   color: #C5A7C2;
+  text-align: center;
   font-family: Script MT;
   padding: 12px;
-  text-align: center;
+}
+
+footer a {
+  color: green;
+}
+
+footer a:hover {
+  color: black;
 }
