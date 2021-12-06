@@ -1,0 +1,141 @@
+body {
+  background-color: #695387;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px solid black;
+  padding: 24px;
+  background-color: #09647E;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+.textshadowbox {
+  margin: 20px;
+  color: #C5A7C2;
+  text-shadow: 7px 7px 7px #BA40F9; /* x, y, blur, color */
+}
+
+header {
+  grid-column: span 12;
+  background-color: #480969;
+  color: #122c36;
+  font-family: 'Playfair Display', serif;
+  padding: 0 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.roundedbox {
+  padding: 10px;
+  border: 1px solid purple;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.dropshadowbox {
+  padding: 1px;
+  border: 1px solid purple;
+  background-color: #ccc;
+  box-shadow: 7px 7px 7px purple; /* x, y, blur, color */
+}
+
+nav {
+  grid-column: span 12;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-align: center;
+  padding: 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  width: 230px;
+  padding: 0 16px;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: #122c36;
+  background-color: #2e6e89;
+  text-decoration: none;
+  font-family: 'Courgette', cursive;
+  text-indent: 5px;
+  margin: auto;
+  font-size: 30px;
+  transition: color 1.0s;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+h2 {
+  font-family: Script MT;
+}
+
+main {
+grid-column: span 12;
+font-family: Rockwell;
+color: #05323E;
+}
+
+p {
+font-size: 25px;
+}
+
+main img {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid purple;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #480969;
+  color: #C5A7C2;
+  font-family: 'Playfair Display', serif;
+  padding: 12px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer a {
+  color: green;
+  float: right;
+  padding: 10px;
+}
+
+footer a:hover {
+  color: #1FFF00;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+  float: right;
+  border-radius: 5px;
+  padding: 5px;
+}
