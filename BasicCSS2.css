@@ -1,6 +1,5 @@
 body {
-  background-color: #999999;
-  background-image: linear-gradient(to right top, #d16ba5, #af6da6, #906c9f, #756a90, #62647d, #5d617f, #585e80, #535b82, #5d5998, #7452a9, #9442b2, #b81eb1);
+  background-color: #695387;
   background-repeat: repeat;
   background-position: center;
 }
@@ -10,7 +9,7 @@ body {
   width: 1200px;
   border: 5px solid black;
   padding: 24px;
-  background-image: linear-gradient(to right top, #e7afde, #bc93b7, #947892, #6e5d6d, #4a444a);
+  background-color: #09647E;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -18,23 +17,23 @@ body {
 
 .textshadowbox {
   margin: 20px;
-  font-weight: bold;
-  font-size: 36px;
   color: #C5A7C2;
-  text-shadow: 5px 5px 5px purple; /* x, y, blur, color */
+  text-shadow: 7px 7px 7px #BA40F9; /* x, y, blur, color */
 }
 
 header {
   grid-column: span 12;
-  background-image: linear-gradient(to right top, #98067f, #9a3d8a, #9c5b94, #9e759b, #a08da0);
+  background-color: #480969;
   color: #C5A7C2;
   font-family: 'Playfair Display', serif;
   padding: 0 12px;
   text-align: center;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .roundedbox {
-  padding: 1px;
+  padding: 10px;
   border: 1px solid purple;
   background-color: purple;
   border-radius: 10px;
@@ -44,7 +43,7 @@ header {
   padding: 1px;
   border: 1px solid purple;
   background-color: #ccc;
-  box-shadow: 5px 5px 5px purple; /* x, y, blur, color */
+  box-shadow: 7px 7px 7px purple; /* x, y, blur, color */
 }
 
 nav {
@@ -64,7 +63,7 @@ nav ul {
 }
 
 nav li {
-  width: 225px;
+  width: 230px;
   padding: 0 16px;
   margin-right: 30px;
   margin-left: 30px;
@@ -73,28 +72,24 @@ nav li {
 
 nav li a {
   display: block;
-  color: #C5A7C2;
-  background-color: #675050;
+  color: #122c36;
+  background-color: #2e6e89;
   text-decoration: none;
-  font-family: Script MT;
+  font-family: 'Courgette', cursive;
   text-indent: 5px;
   margin: auto;
-  font-size: 24px;
+  font-size: 30px;
   transition: color 1.0s;
 }
 
 nav a:hover {
-  color: purple;
-}
-
-h2 {
-  font-family: Script MT;
+  color: blue;
 }
 
 main {
 grid-column: span 12;
 font-family: Rockwell;
-color: #8B008B;
+color: #05323E;
 float: right;
 padding: 10px;
 }
@@ -105,9 +100,8 @@ font-size: 25px;
 
 main img {
   height: 300px;
-  width: 200px;
+  width: 300px;
   position: relative;
-  float: left;
   border-radius: 10px;
   border: 3px solid purple;
   margin-top: 10px;
@@ -115,17 +109,28 @@ main img {
 
 footer {
   grid-column: span 12;
-  background-image: linear-gradient(to right top, #98067f, #9a3d8a, #9c5b94, #9e759b, #a08da0);
+  background-color: #480969;
   color: #C5A7C2;
-  text-align: center;
-  font-family: Script MT;
+  font-family: 'Playfair Display', serif;
   padding: 12px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 footer a {
   color: green;
+  float: right;
+  padding: 10px;
 }
 
 footer a:hover {
-  color: black;
+  color: #1FFF00;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+  float: right;
+  border-radius: 5px;
+  padding: 5px;
 }
